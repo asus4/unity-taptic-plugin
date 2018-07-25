@@ -48,7 +48,7 @@ namespace TapticPlugin
                     TapticManager.Impact(ImpactFeedback.Light);
                     break;
                 case Feedback.ImpactMidium:
-                    TapticManager.Impact(ImpactFeedback.Midium);
+                    TapticManager.Impact(ImpactFeedback.Medium);
                     break;
                 case Feedback.ImpactHeavy:
                     TapticManager.Impact(ImpactFeedback.Heavy);
