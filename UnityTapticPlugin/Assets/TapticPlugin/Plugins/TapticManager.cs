@@ -13,7 +13,7 @@ namespace TapticPlugin
     public enum ImpactFeedback
     {
         Light,
-        Midium,
+        Medium,
         Heavy
     }
 

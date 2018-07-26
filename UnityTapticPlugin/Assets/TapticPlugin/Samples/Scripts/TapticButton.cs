@@ -12,7 +12,7 @@ namespace TapticPlugin
             NotificationWarning,
             NorificationError,
             ImpactLight,
-            ImpactMidium,
+            ImpactMedium,
             ImpactHeavy,
             Selection
         }
@@ -47,8 +47,8 @@ namespace TapticPlugin
                 case Feedback.ImpactLight:
                     TapticManager.Impact(ImpactFeedback.Light);
                     break;
-                case Feedback.ImpactMidium:
-                    TapticManager.Impact(ImpactFeedback.Midium);
+                case Feedback.ImpactMedium:
+                    TapticManager.Impact(ImpactFeedback.Medium);
                     break;
                 case Feedback.ImpactHeavy:
                     TapticManager.Impact(ImpactFeedback.Heavy);

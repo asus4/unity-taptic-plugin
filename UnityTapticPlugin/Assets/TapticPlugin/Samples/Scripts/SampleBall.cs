@@ -31,7 +31,7 @@ namespace TapticPlugin
             }
             else if (volume < 5)
             {
-                feedback = ImpactFeedback.Midium;
+                feedback = ImpactFeedback.Medium;
             }
             else
             {
